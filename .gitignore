@@ -1,0 +1,47 @@
+# === PYTHON ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === VENV ===
+venv/
+venv_prueba_tecnica/
+env/
+.env/
+.env*/
+
+# === YOLO / MODELS / CHECKPOINTS ===
+yolov5*.pt
+yolov8*.pt
+yolov11*.pt
+
+*.pt
+
+!weights/
+!weights/**
+
+# === SALIDAS DE ENTRENAMIENTO ===
+runs/
+
+# === DATASETS ===
+data/
+!data/data.yaml   
+!data/README.md
+
+# === LOGS ===
+*.log
+
+# === JUPYTER ===
+.ipynb_checkpoints/
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === IDE ===
+.vscode/
+.idea/
+
+# === DOCKER ===
+*.dockerignore
